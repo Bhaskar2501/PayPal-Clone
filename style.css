@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: PayPalSansBig-Light,Helvetica Neue,Arial,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    color: #2c2e2f;
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 5px 25px 25px; */
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 1.2rem 0;
+}
+
+nav h2{
+    font-size: 14px;
+}
+nav button{
+    
+        border: 0;
+        outline: 0;
+        background: rgb(52, 108, 212);
+        color: #fff;
+        padding: 7px 20px;
+        font-size: 12px;
+        border-radius: 20px;
+        margin-left: 10px;
+        cursor: pointer;
+        display: inline-flex;
+        
+}
+.login-btn:hover{
+    background-color: #003087;
+}
+.signup-btn:hover{
+    background-color: #003087;
+
+}
+
+.header-content{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(bg-img.jpg);
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    padding: 40px 8% ;
+    color: #fff;
+
+}
+.heading{
+    font-size: 3.75rem;
+    line-height: 1;
+    width: 550px;
+    font-style: italic;
+    font-family: DharmaGothicE-RegularItalic,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;    
+}
+.header-content p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+    max-width: 600px;
+    font-style: normal;
+    font-family: DharmaGothicE-RegularItalic,Helvetica Neue,Arial,sans-serif;
+
+}
+.email{
+    border: 0;
+    outline: 0;
+    background: rgb(52, 108, 212);
+    color: #fff;
+    border-radius: 15px;
+
+}
+.header-content h3{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: lighter;
+    max-width: 600px;
+    font-style: normal;
+}
+/* .business{
+    cursor: pointer;
+    color: #fff;
+}
+.business:hover{
+    color: #003087;
+
+} */
+
+.header-bottom{
+    
+    height: 80px;
+    background-color: #d0d6d8;
+    max-width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 35px 0;
+
+}
+
+.sign-btn{
+    border: 0;
+    outline: 0;
+    display: inline-block;
+    background: rgb(52, 108, 212);
+    color: #fff;
+    border-radius: 35px;
+    font-size: 15px;
+    padding: 10px 40px;
+    cursor: pointer;
+
+}
+.sign-btn:hover{
+    background-color: #003087;
+
+}
+
+
+/* ---------features------------ */
+.features{
+    padding: 40px 8%;
+    
+}
+.feats{
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+    padding: 50px 8%;
+    
+}
+.feature1{
+    max-width: 300px;
+    text-align: center;
+    /* align-items: center; */
+}
+.feature2{
+    max-width: 300px;
+    text-align: center;
+
+}
+.feature3{
+    max-width: 300px;
+    text-align: center;
+
+}
+.feats-sub{
+    display: flex;
+    justify-content: space-between;
+}
+.learn{
+    cursor: pointer;
+    color: blue;
+}
+.learn:hover{
+    text-decoration: underline;
+}
+
+.feats-sub2{
+    width: 100%;
+    height:500px;
+    background-color: #e6e6e6;
+    padding: 60px 8%;
+    display: flex;
+    align-items: center;
+    font-family: PayPalSansBig-Light,Helvetica Neue,Arial,sans-serif;
+    justify-content: space-between;
+    
+}
+.feats-sub2-text h2{
+    font-weight: 100;
+    
+    
+}
+.feats-sub2-video{
+
+    /* border-radius: 2px;
+    border-color: #4a4a4a; */
+    
+}
+.feats-sub2-text h2{
+    font-size: 40px;
+    color: #4a4a4a;
+    font-style: normal;
+}
+.feats-sub2-text p{
+    font: size 2.5rem ;
+    line-height: 1.5rem;
+    max-width: 400px;
+    font-weight: 400;
+    
+    
+}
+.feats-sub3{
+    color: #fff;
+    width: 100%;
+    height: 700px;
+    /* background: linear-gradient(
+        to right,
+
+    )  */
+    background-color: #009cde;
+    background-image: radial-gradient(circle farthest-side at center bottom,#009cde,#003087 125%);
+    padding: 50px 8%;
+    
+}
+.feats-sub3 h2{
+    font-size: 45px;
+    font-weight: 100;
+
+}
+.feats-sub3 h3{
+    font-size: 16px;
+    font-weight: 80;
+
+}
+.feats-sub3 p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 70;
+    max-height: 2px;
+}
+.base{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.feats-sub3 h4{
+    font-size: 12px;
+    font-weight: 80;
+    margin-top: 100px;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+.feats-sub3 img{
+    width: 500px;
+    height: 400px;
+}
+.feats-sub4{
+    background-color:#e6e6e6;
+    width: 100%;
+    height: 400px;
+    padding: 70px 25%;
+    align-items: center;
+    font-family: PayPalSansBig-Light,Helvetica Neue,Arial,sans-serif;
+    text-align: center;
+
+}
+.feats-sub4 h2{
+    color: #4a4a4a;
+    font-size: 35px;
+    font-weight: 50;
+    max-width: 700px;
+
+
+}
+.feats-sub4 button{
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+.feats-sub4 p{
+
+    font-size: 15px;
+}
+.feats-sub5{
+    font-size: 8px;
+    font-family: PayPalSansBig-Light,Helvetica Neue,Arial,sans-serif;
+    color: #4a4a4a;
+    padding: 20px 8%;
+}
+.feats-sub5 h1{
+    margin-top: 30px;
+    font-size: 13px; 
+    font-weight: 400;
+}
+.stay{
+    width: 100%;
+    padding: 30px 70%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.stay h2{
+    margin-right: 20px;
+}
+#image{
+    width: 50px;
+    margin-right: 10px;
+}
+.help-section{
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.help{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 10px;
+}
+.flag{
+    /* padding: 0 1100px; */
+}
+.final{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 0;
+}
+.final a{
+    color: #687173;
+    text-decoration: none;
+}
+.final a:hover{
+    text-decoration: underline;
+}
+.final ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #687173;
+}
+.about{
+    width: 35%;
+    font-size: 14px;
+}
+.copyright{
+    width: 40%;
+    font-size: 14px;
+    /* justify-content: space-between;   */
+}
+
+
+
